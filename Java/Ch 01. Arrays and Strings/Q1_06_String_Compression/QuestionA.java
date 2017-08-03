@@ -1,5 +1,11 @@
 package Q1_06_String_Compression;
 
+/*
+Implement a method to perform basic string compression using the counts of
+repeated characters. For example: the string aabccccaa would become a2b1c5a3. If
+the compressed string would not become smaller than the original string, then
+return original string. You can assume the string has only uppercase and lowercase letters (a-z)
+*/
 public class QuestionA {	
 	public static String compressBad(String str) {
 		String compressedString = "";

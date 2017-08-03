@@ -1,5 +1,21 @@
 package Q1_05_One_Away;
 
+/*
+There are three types of edits that can be performed on strings: insert a characters, remove a character,
+or replace a character. Given two strings, write a function to check if they are one edit (or zero
+edits) away.
+
+Example
+pale, ple -> true
+pales, pale -> true
+pale, bale -> true
+pale, bae -> false
+
+Think about what each of these operations mean to a computer:
+Replace: str1 and str2 are of the same length but different in one place
+Insert: str1 and str2 are of different lengths but same (after a 1 character shift)
+Remove: str1 and str2 are of different lengths but same (after a 1 character shift) (Just like insert!)
+*/
 public class QuestionA {
 
 	public static boolean oneEditReplace(String s1, String s2) {

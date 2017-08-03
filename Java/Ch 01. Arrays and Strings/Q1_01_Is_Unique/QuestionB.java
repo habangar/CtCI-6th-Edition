@@ -1,5 +1,8 @@
 package Q1_01_Is_Unique;
 
+/*
+What if you cannot use additional data structures?
+*/
 public class QuestionB {
 
 	/* Assumes only letters a through z. */

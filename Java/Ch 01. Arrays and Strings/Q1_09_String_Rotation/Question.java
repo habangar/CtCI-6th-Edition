@@ -1,5 +1,10 @@
 package Q1_09_String_Rotation;
 
+/*
+1.8 Assume you have a method isSubstring which checks if one word is a substring
+of another. Given two strings, string1 and string2, write code to check if string2 is a rotation of string1
+using only one call to isSubstring (e.g., "waterbottLe" is a rotation of "erbottLewat").
+*/
 public class Question {
 	public static boolean isSubstring(String big, String small) {
 		if (big.indexOf(small) >= 0) {
