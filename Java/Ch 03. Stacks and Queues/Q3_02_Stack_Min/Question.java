@@ -1,5 +1,9 @@
 package Q3_02_Stack_Min;
 
+/**
+ * Stack Min: How would you design a stack which, in addition to push and pop, has a function min which returns the minimum elemen? Push, pop and min should all operate in O(1) time.
+ * Hints: 27, 59, 78
+ */
 public class Question {
 	public static void main(String[] args) {
 		StackWithMin stack = new StackWithMin();

@@ -3,6 +3,18 @@ package Q2_05_Sum_Lists;
 
 import CtCILibrary.LinkedListNode;
 
+/**
+ * Sum Lists: You have two numbers rerpresented by a linked list, where each node contains a single digit. The digits are stored in reverse order, such that the 1's digit is at the head of the list. Write a function that adds the two numbers and return s the sum as a linked list.
+ * EXAMPLE
+ * Input: (7->1->6) + (5->9->2). That is, 617 + 295.
+ * Output: 2->1->9. That is, 912
+ * FOLLOW UP
+ * Suppose the digits are stored in forward order. Repeat the above problelm/
+ * EXAMPLE
+ * Input: (6->1->7) + (2->9->5). That is, 617 + 295.
+ * Output: 9->1->2. That is, 912.
+ * Hinits: #7, #30, #71, #95, #109
+ */
 public class QuestionA {
 
 	private static LinkedListNode addLists(LinkedListNode l1, LinkedListNode l2, int carry) {
