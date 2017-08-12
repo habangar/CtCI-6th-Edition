@@ -3,10 +3,10 @@ package Q4_08_First_Common_Ancestor;
 import CtCILibrary.TreeNode;
 
 /**
- * First Common Ancestor: Design an algorithm and write code to find the first comon ancestor of two nodes in a binary tree.
- * Avoid storing additional nodes in a data structure.
+ * First Common Ancestor: Design an algorithm and write code to find the first common ancestor of two nodes in a
+ * binary tree. Avoid storing additional nodes in a data structure.
  * NOTE: this is not necessarily a binary search tree.
- * Hinits: 10, 16, 28, 36, 46, 70, 80, 96
+ * Hints: #10, #16, #28, #36, #46, #70, #80, #96
  */
 public class Question {
 	static int TWO_NODES_FOUND = 2;

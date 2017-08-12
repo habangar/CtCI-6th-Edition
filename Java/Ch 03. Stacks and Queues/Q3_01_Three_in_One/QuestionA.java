@@ -4,8 +4,8 @@ import CtCILibrary.AssortedMethods;
 import CtCILibrary.AssortedMethods;
 
 /**
- * Three in One: Descrive how you could use a single array to imlelent thre stacks.
- Hints: 2, 12, 38, 58
+ * Three in One: Describe how you could use a single array to implement three stacks.
+ * Hints: #2, #12, #38, #58
  */
 public class QuestionA {
 	public static void printStacks(FixedMultiStack stacks) {

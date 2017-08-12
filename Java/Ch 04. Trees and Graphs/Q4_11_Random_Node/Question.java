@@ -1,10 +1,11 @@
 package Q4_11_Random_Node;
 
 /**
- * Random Node: You are implementing a binary tree class from scratch which, in addition to inser, find, and delete,
- * has a method getRandomNode() which returns a random node from the tree. All nodes should be equally likely to ben chosen.
- * Design and implement an algorithm for getRanfomNode, and explain how you would implment the rest of the methods.
- * Hints: 42, 54, 62, 75, 89, 99, 112, 119
+ * Random Node: You are implementing a binary tree class from scratch which, in addition to insert, find, and delete,
+ * has a method getRandomNode() which returns a random node from the tree. All nodes should be equally likely to be
+ * chosen. Design and implement an algorithm for getRandomNode, and explain how you would implement the rest of the
+ * methods.
+ * Hints: #42, #54, #62, #75, #89, #99, #112, #119
  */
 public class Question {
 

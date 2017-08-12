@@ -6,8 +6,8 @@ import java.util.Queue;
 import CtCILibrary.AssortedMethods;
 
 /**
- * Queue via Stacks: Implement a MyQueue class which implemts a queu using tow stacks.
- * Hints: 98, 114
+ * Queue via Stacks: Implement a MyQueue class which implements a queue using two stacks.
+ * Hints: #98, #114
  */
 public class Question {
 	public static void main(String[] args) {

@@ -3,8 +3,9 @@ package Q4_02_Minimal_Tree;
 import CtCILibrary.TreeNode;
 
 /**
- * Miniaml Tree: Given a sorted (increasing order) array with unique integer elements, write an algorithm to create a binary search tree with minimal height.
- Hinits: 19, 73, 116
+ * Minimal Tree: Given a sorted (increasing order) array with unique integer elements, write an algorithm to create a
+ * binary search tree with minimal height.
+ * Hints: #19, #73, #116
  */
 public class Question {	
 	public static void main(String[] args) {

@@ -3,7 +3,7 @@ package Q2_06_Palindrome;
 import CtCILibrary.LinkedListNode;
 
 /**
- * Palindrome: Imlement a function t check if a linked list is palindrome.
+ * Palindrome: Implement a function t check if a linked list is palindrome.
  * Hints: #5, #13, #29, #61, #101
  */
 public class QuestionA {
