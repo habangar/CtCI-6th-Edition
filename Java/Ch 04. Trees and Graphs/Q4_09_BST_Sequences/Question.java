@@ -5,6 +5,17 @@ import java.util.LinkedList;
 
 import CtCILibrary.TreeNode;
 
+/**
+ * BST Sequences: A binary search tree was created by traversing through an array fro left to right and inserting each element.
+ * Given a binary search tree with distinct elements. print all possible arrays that could have led to this tree.
+ * EXAMPLE
+ * Input:
+ *                     2
+ *                    / \
+ *                   1   3
+ * Output: {2, 1, 3}, {2, 3, 1}
+ * Hints: 39, 48, 66, 82
+ */
 public class Question {
 	
 	public static void weaveLists(LinkedList<Integer> first, LinkedList<Integer> second, ArrayList<LinkedList<Integer>> results, LinkedList<Integer> prefix) {

@@ -3,6 +3,18 @@ package Q4_07_Build_Order.DFS;
 import java.util.ArrayList;
 import java.util.Stack;
 
+/**
+ * Build Order: You are given a list of projects and a list of dependencies (which is a list of paris of projects,
+ * where the second project is dependent on the first project). All of a project's dependencirs must be built before the project is.
+ * Find a build order that will allow the projects to be build. If there is no valid build order, return an error.
+ * EXAMPLE
+ * Input:
+ *   projects: a, b, b, d, e, f
+ *   dependencies: (a, d), (f, b), (b, d), (f, a), (d, c)
+ * Output: f, e, a, b, d, c
+ * Hints: 26, 47, 60, 85, 125, 133
+ *
+ */
 public class Question {
 
 	/* Build the graph, adding the edge (a, b) if b is dependent on a. 
