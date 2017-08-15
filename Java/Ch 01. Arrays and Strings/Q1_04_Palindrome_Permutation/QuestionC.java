@@ -37,7 +37,7 @@ public class QuestionC {
 	}
 	
 	public static void main(String[] args) {
-		String pali = "Rats live on no evil star";
+		String pali = "Rats live on no evil star h";
 		System.out.println(isPermutationOfPalindrome(pali));
 	}
 

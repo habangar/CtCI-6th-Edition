@@ -1,7 +1,7 @@
 package Q1_03_URLify;
 
 import CtCILibrary.AssortedMethods;
-
+import static java.lang.System.out;
 /*
 1.4 Write a method to replace all spaces in a string with '%20'. You may assume that the
 string has sufficient space at the end to hold the additional characters, and that you
@@ -46,10 +46,10 @@ public class Question {
 	}
 	
 	public static void main(String[] args) {
-		String str = "Mr John Smith    ";
+		String str = "Mr John Smith      ";
 		char[] arr = str.toCharArray();
 		int trueLength = findLastCharacter(arr) + 1;
 		replaceSpaces(arr, trueLength);	
-		System.out.println("\"" + AssortedMethods.charArrayToString(arr) + "\"");
+		out.println("\"" + AssortedMethods.charArrayToString(arr) + "\"");
 	}
 }

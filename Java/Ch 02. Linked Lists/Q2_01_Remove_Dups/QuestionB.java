@@ -8,7 +8,7 @@ public class QuestionB {
 		while (current != null) {
 			/* Remove all future nodes that have the same value */
 			LinkedListNode runner = current;
-			while (runner.next != null) { 
+			while (runner.next != null) {
 				if (runner.next.data == current.data) {
 					runner.next = runner.next.next;
 				} else {
@@ -17,8 +17,8 @@ public class QuestionB {
 			}
 			current = current.next;
 		}
-	}	
-	
+	}
+
 	public static void main(String[] args) {	
 		LinkedListNode first = new LinkedListNode(0, null, null); //AssortedMethods.randomLinkedList(1000, 0, 2);
 		LinkedListNode head = first;
@@ -31,5 +31,6 @@ public class QuestionB {
 		}
 		System.out.println(head.printForward());
 		deleteDups(head);
+		System.out.println(head.printForward());
 	}
 }

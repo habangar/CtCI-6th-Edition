@@ -21,6 +21,19 @@ public class QuestionB {
 				afterStart = node;
 			}	
 			node = next;
+
+			/*
+			if (beforeStart != null) {
+				System.out.println("beforeStart: " + beforeStart.printForward());
+			} else {
+				System.out.println("beforeStart: null");
+			}
+			if (afterStart != null) {
+				System.out.println("afterStart: " + afterStart.printForward());
+			} else {
+				System.out.println("afterStart: null");
+			}
+			*/
 		}
 		
 		/* Merge before list and after list */
@@ -35,7 +48,20 @@ public class QuestionB {
 		beforeStart.next = afterStart;
 		return head;
 	}
-	
+
+	private static void main2() {
+		int[] vals = {33, 9, 2, 1, 3, 10, 10389, 838, 874578, 5};
+		LinkedListNode head = new LinkedListNode(vals[0], null, null);
+		LinkedListNode current = head;
+		for (int i = 1; i < vals.length; i++) {
+			current = new LinkedListNode(vals[i], null, current);
+		}
+		System.out.println(head.printForward());
+
+		LinkedListNode h = partition(head, 3);
+		System.out.println(h.printForward());
+	}
+
 	public static void main(String[] args) {
 		int length = 20;
 		LinkedListNode[] nodes = new LinkedListNode[length];
@@ -57,6 +83,8 @@ public class QuestionB {
 		
 		LinkedListNode h = partition(head, 7);
 		System.out.println(h.printForward());
+
+		main2();
 	}
 
 }

@@ -7,6 +7,10 @@ import CtCILibrary.LinkedListNode;
 2.1 Write code to remove duplicates from an unsorted linked list.
 How would you solve this problem if a temporary buffer is not allowed?
 */
+
+/**
+ * see: http://www.geeksforgeeks.org/remove-duplicates-from-an-unsorted-linked-list/
+ */
 public class QuestionA {
 	public static void deleteDups(LinkedListNode n) {
 		HashSet<Integer> set = new HashSet<Integer>();
@@ -21,7 +25,7 @@ public class QuestionA {
 			n = n.next;
 		}
 	}
-	
+
 	public static void main(String[] args) {	
 		LinkedListNode first = new LinkedListNode(0, null, null); //AssortedMethods.randomLinkedList(1000, 0, 2);
 		LinkedListNode head = first;
